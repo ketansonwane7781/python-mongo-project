@@ -22,10 +22,27 @@ Perform **Create, Read, Update, Delete (CRUD)** operations with a simple web int
 ---
 
 ## 📸 Demo
+ 
+![image](https://github.com/user-attachments/assets/44e6155e-492a-4e1c-b98f-67e7d3d50280)
 
-> _Add screenshots/gif here after running your app!_
+1.	Add
+ ![image](https://github.com/user-attachments/assets/2048bcf0-3a0a-4af1-a0a9-21e4e66fad86)
+![image](https://github.com/user-attachments/assets/47735f1d-d689-4a10-8bf3-ef4c29a5a669)
 
----
+2.	Seach
+ 
+![image](https://github.com/user-attachments/assets/f0930d01-f75f-489b-ab74-9a7615ca63eb)
+
+3.	Update
+ ![image](https://github.com/user-attachments/assets/0e3aca6d-50b4-42ae-ac46-df521a2f4569)
+![image](https://github.com/user-attachments/assets/61e51842-e091-4e9d-bf3d-9c06431b63e7)
+
+ 
+4.	Delete
+ ![image](https://github.com/user-attachments/assets/6a7c8aab-1fb5-4514-bdf3-0379b777a5a0)
+
+ ![image](https://github.com/user-attachments/assets/6f8b92c8-983f-4749-8a70-9426d5d14e9a)
+
 
 ## 🛠️ Installation
 
