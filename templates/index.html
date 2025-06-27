@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="text-center mt-5 mb-4">
+    <h1 class="display-5 fw-bold text-primary">Welcome to Student Management System</h1>
+    <p class="lead text-muted">Perform CRUD operations on student data with ease and style.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <!-- Add Student -->
+    <div class="col">
+        <div class="card border-success h-100 shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title text-success">➕ Add Student</h5>
+                <p class="card-text">Insert a new student into the database.</p>
+                <a href="{{ url_for('add') }}" class="btn btn-success">Go to Add</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Student -->
+    <div class="col">
+        <div class="card border-primary h-100 shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title text-primary">🔍 Search Student</h5>
+                <p class="card-text">Find a student by name.</p>
+                <a href="{{ url_for('search') }}" class="btn btn-primary">Search Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Update Student -->
+    <div class="col">
+        <div class="card border-warning h-100 shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title text-warning">✏️ Update Student</h5>
+                <p class="card-text">Update student details like email, age, or department.</p>
+                <a href="{{ url_for('update') }}" class="btn btn-warning text-white">Update Info</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delete Student -->
+    <div class="col">
+        <div class="card border-danger h-100 shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title text-danger">🗑️ Delete Student</h5>
+                <p class="card-text">Remove a student record permanently.</p>
+                <a href="{{ url_for('delete') }}" class="btn btn-danger">Delete Record</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

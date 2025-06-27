@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4 mt-4">
+    <h3 class="text-warning">Update Student</h3>
+    <form method="POST">
+        <div class="mb-3">
+            <label class="form-label">Name to Update</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">New Email</label>
+            <input type="email" name="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">New Age</label>
+            <input type="number" name="age" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">New Department</label>
+            <input type="text" name="dept" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-warning">Update Student</button>
+    </form>
+</div>
+{% endblock %}

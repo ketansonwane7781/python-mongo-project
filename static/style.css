@@ -1,0 +1,22 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #777;
+}
